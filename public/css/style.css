@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 22px;
+  margin-bottom: 12px;
+}
+.logo img {
+  max-width: 43.7vw;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background: linear-gradient(#cfcfcf, #eaeaea);
+}
+.search label {
+  margin-right: 18px;
+  font-size: 4.27vw;
+}
+.search input {
+  border: none;
+  width: 35vw;
+  height: 5vw;
+  font-size: 4.27vw;
+  background: none;
+}
+.search input::placeholder {
+  color: black;
+  font-size: 4.27vw;
+}
+
+/*# sourceMappingURL=style.css.map */
