@@ -4,7 +4,7 @@ $breakpoints: (
 );
 
 @mixin tablette-only {
-    @media screen and (min-width: ($breakpoints, tablette)){
+    @media screen and (min-width: map-get($breakpoints, tablette)){
         @content;
     }
 }
@@ -29,8 +29,11 @@ $breakpoints: (
     background: linear-gradient(#cfcfcf, #eaeaea);
 
     label {
-        margin-right: 18px;
+        margin-right: 2vw;
         font-size: 4.27vw;
+        @include tablette-only {
+            font-size: 3vw;
+        } 
     }
 
     input {
@@ -38,10 +41,17 @@ $breakpoints: (
         width: 35vw;
         height: 5vw;
         font-size: 4.27vw;
+        @include tablette-only {
+            font-size: 3vw;
+            width: 21vw;
+        } 
         background: none;
         &::placeholder {
             color: black;
-            font-size: 4.27vw;    
+            font-size: 4.27vw;
+            @include tablette-only {
+                font-size: 3vw;
+            } 
         }
     }
 

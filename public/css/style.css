@@ -25,8 +25,13 @@
   background: linear-gradient(#cfcfcf, #eaeaea);
 }
 .search label {
-  margin-right: 18px;
+  margin-right: 2vw;
   font-size: 4.27vw;
+}
+@media screen and (min-width: 375px) {
+  .search label {
+    font-size: 3vw;
+  }
 }
 .search input {
   border: none;
@@ -35,9 +40,20 @@
   font-size: 4.27vw;
   background: none;
 }
+@media screen and (min-width: 375px) {
+  .search input {
+    font-size: 3vw;
+    width: 21vw;
+  }
+}
 .search input::placeholder {
   color: black;
   font-size: 4.27vw;
+}
+@media screen and (min-width: 375px) {
+  .search input::placeholder {
+    font-size: 3vw;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
