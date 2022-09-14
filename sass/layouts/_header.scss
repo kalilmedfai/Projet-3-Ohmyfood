@@ -1,15 +1,3 @@
-$breakpoints: (
-    tablette: 375px
-
-);
-
-@mixin tablette-only {
-    @media screen and (min-width: map-get($breakpoints, tablette)){
-        @content;
-    }
-}
-
-
 .logo {
     display: flex;
     justify-content: center;
