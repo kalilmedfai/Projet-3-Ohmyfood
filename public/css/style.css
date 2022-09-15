@@ -182,4 +182,52 @@
   padding-left: 26.5px;
 }
 
+.menu {
+  padding: 58px 20px 64px;
+  background: #f6f6f6;
+}
+.menu h2 {
+  margin-bottom: 27px;
+}
+
+@media screen and (min-width: 993px) {
+  .all-menu {
+    display: grid;
+    grid-template-columns: 47% 47%;
+    justify-content: space-around;
+  }
+}
+.card-menu {
+  margin-bottom: 18px;
+}
+.card-menu img {
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+  height: 174px;
+  object-fit: cover;
+}
+
+.card-description {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 24px 18px 14px;
+  margin-top: -4px;
+  border-radius: 0 0 15px 15px;
+  box-shadow: 0px 0px 10px rgb(88, 86, 86);
+}
+.card-description div {
+  color: black;
+}
+.card-description div h4 {
+  margin-bottom: 7px;
+}
+.card-description div p {
+  font-weight: 200;
+}
+
+.fa-heart {
+  color: black;
+  font-size: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
