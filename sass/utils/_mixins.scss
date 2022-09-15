@@ -3,3 +3,9 @@
         @content;
     }
 }
+
+@mixin laptop-only {
+    @media screen and (min-width: map-get($breakpoints, laptop)){
+        @content;
+    }
+}

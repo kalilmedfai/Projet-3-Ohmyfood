@@ -22,6 +22,9 @@
         @include tablette-only {
             font-size: 3vw;
         } 
+        @include laptop-only {
+            font-size: 2vw;
+        }  
     }
 
     input {
@@ -29,10 +32,11 @@
         width: 35vw;
         height: 5vw;
         font-size: 4.27vw;
-        @include tablette-only {
-            font-size: 3vw;
-            width: 21vw;
-        } 
+        @include laptop-only {
+            font-size: 2vw;
+            width: 15vw;
+            height: 3vw;
+        }  
         background: none;
         &::placeholder {
             color: black;
@@ -40,7 +44,69 @@
             @include tablette-only {
                 font-size: 3vw;
             } 
+            @include laptop-only {
+                font-size: 2vw;
+                width: 15vw;
+            }
         }
     }
 
+}
+
+.under-searchzone {
+
+    padding: 11.5vw 0 15.2vw;
+    background: #f6f6f6;
+
+    @include laptop-only {
+        padding: 20px 0 30px;
+    } 
+
+    h2 {
+        text-align: center;
+        margin: 0 16vw 20px;
+        font-size: 6vw;
+        @include tablette-only {
+            font-size: 5vw;
+        } 
+
+        @include laptop-only {
+            font-size: 4vw;
+        } 
+    }
+
+    p {
+        text-align: center;
+        font-weight: 200;
+        font-size: 4.27vw;
+        margin: 0 20px 30px;
+        @include tablette-only {
+            font-size: 3vw;
+        } 
+
+        @include laptop-only {
+            font-size: 2vw;
+        } 
+    }
+
+    button {
+        display: block;
+        margin: auto;
+        padding: 4.79vw 5.86vw 4.3vw;
+        color: white;
+        border: none;
+        border-radius: 7vw;
+        background: linear-gradient(#e571da, #a05adc);
+        font-size: 4vw;
+        box-shadow: 0px 5px 5px rgb(207, 207, 207);
+        @include tablette-only {
+            padding: 3.59vw 4.66vw 3.1vw;
+            font-size: 1.5vw;
+        } 
+
+        @include laptop-only {
+            padding: 2.5vw 3.5vw 2vw;
+            font-size: 1.2vw;
+        } 
+    }
 }

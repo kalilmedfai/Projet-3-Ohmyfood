@@ -28,9 +28,14 @@
   margin-right: 2vw;
   font-size: 4.27vw;
 }
-@media screen and (min-width: 375px) {
+@media screen and (min-width: ) {
   .search label {
     font-size: 3vw;
+  }
+}
+@media screen and (min-width: 993px) {
+  .search label {
+    font-size: 2vw;
   }
 }
 .search input {
@@ -40,19 +45,90 @@
   font-size: 4.27vw;
   background: none;
 }
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 993px) {
   .search input {
-    font-size: 3vw;
-    width: 21vw;
+    font-size: 2vw;
+    width: 15vw;
+    height: 3vw;
   }
 }
 .search input::placeholder {
   color: black;
   font-size: 4.27vw;
 }
-@media screen and (min-width: 375px) {
+@media screen and (min-width: ) {
   .search input::placeholder {
     font-size: 3vw;
+  }
+}
+@media screen and (min-width: 993px) {
+  .search input::placeholder {
+    font-size: 2vw;
+    width: 15vw;
+  }
+}
+
+.under-searchzone {
+  padding: 11.5vw 0 15.2vw;
+  background: #f6f6f6;
+}
+@media screen and (min-width: 993px) {
+  .under-searchzone {
+    padding: 20px 0 30px;
+  }
+}
+.under-searchzone h2 {
+  text-align: center;
+  margin: 0 16vw 20px;
+  font-size: 6vw;
+}
+@media screen and (min-width: ) {
+  .under-searchzone h2 {
+    font-size: 5vw;
+  }
+}
+@media screen and (min-width: 993px) {
+  .under-searchzone h2 {
+    font-size: 4vw;
+  }
+}
+.under-searchzone p {
+  text-align: center;
+  font-weight: 200;
+  font-size: 4.27vw;
+  margin: 0 20px 30px;
+}
+@media screen and (min-width: ) {
+  .under-searchzone p {
+    font-size: 3vw;
+  }
+}
+@media screen and (min-width: 993px) {
+  .under-searchzone p {
+    font-size: 2vw;
+  }
+}
+.under-searchzone button {
+  display: block;
+  margin: auto;
+  padding: 4.79vw 5.86vw 4.3vw;
+  color: white;
+  border: none;
+  border-radius: 7vw;
+  background: linear-gradient(#e571da, #a05adc);
+  font-size: 4vw;
+  box-shadow: 0px 5px 5px rgb(207, 207, 207);
+}
+@media screen and (min-width: ) {
+  .under-searchzone button {
+    padding: 3.59vw 4.66vw 3.1vw;
+    font-size: 1.5vw;
+  }
+}
+@media screen and (min-width: 993px) {
+  .under-searchzone button {
+    padding: 2.5vw 3.5vw 2vw;
+    font-size: 1.2vw;
   }
 }
 
