@@ -8,6 +8,11 @@ footer {
     }
     ul {
         padding: 0;
+        @include laptop-only {
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+            text-align: center;
+        }
     }
 }
 

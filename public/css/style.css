@@ -242,6 +242,13 @@ footer img {
 footer ul {
   padding: 0;
 }
+@media screen and (min-width: 993px) {
+  footer ul {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
+  }
+}
 
 .footer-list {
   list-style: none;
