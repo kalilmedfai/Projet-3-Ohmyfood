@@ -230,4 +230,28 @@
   font-size: 20px;
 }
 
+footer {
+  padding: 26px 25px 27px;
+  background: #353535;
+}
+footer img {
+  width: 98px;
+  margin-bottom: 23px;
+  filter: invert(99%) sepia(1%) saturate(2%) hue-rotate(35deg) brightness(111%) contrast(100%);
+}
+footer ul {
+  padding: 0;
+}
+
+.footer-list {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.footer-list a {
+  color: white;
+}
+.footer-list a:active {
+  color: white;
+}
+
 /*# sourceMappingURL=style.css.map */
