@@ -16,9 +16,19 @@
 
 }
 
+.new {
+    position: absolute;
+    right: 11px;
+    top: 13px;
+    background: #99e2d0;
+    color: #008766;
+    padding: 10px 14px;
+}
+
 .card-menu {
 
     margin-bottom: 18px;
+    position: relative;
 
     img {
         border-radius: 15px 15px 0 0;
