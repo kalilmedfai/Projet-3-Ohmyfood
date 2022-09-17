@@ -28,11 +28,6 @@
   margin-right: 2vw;
   font-size: 4.27vw;
 }
-@media screen and (min-width: 376px) {
-  .search label {
-    font-size: 3vw;
-  }
-}
 @media screen and (min-width: 993px) {
   .search label {
     font-size: 2vw;
@@ -55,11 +50,6 @@
 .search input::placeholder {
   color: black;
   font-size: 4.27vw;
-}
-@media screen and (min-width: 376px) {
-  .search input::placeholder {
-    font-size: 3vw;
-  }
 }
 @media screen and (min-width: 993px) {
   .search input::placeholder {

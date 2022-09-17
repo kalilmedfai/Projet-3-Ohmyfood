@@ -19,9 +19,6 @@
     label {
         margin-right: 2vw;
         font-size: 4.27vw;
-        @include tablette-only {
-            font-size: 3vw;
-        } 
         @include laptop-only {
             font-size: 2vw;
         }  
@@ -41,9 +38,6 @@
         &::placeholder {
             color: black;
             font-size: 4.27vw;
-            @include tablette-only {
-                font-size: 3vw;
-            } 
             @include laptop-only {
                 font-size: 2vw;
                 width: 15vw;
