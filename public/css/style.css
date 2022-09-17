@@ -109,6 +109,30 @@
   }
 }
 
+button {
+  display: block;
+  margin: auto;
+  padding: 4.79vw 5.86vw 4.3vw;
+  color: white;
+  border: none;
+  border-radius: 7vw;
+  background: linear-gradient(#e571da, #a05adc);
+  font-size: 4vw;
+  box-shadow: 0px 5px 5px rgb(207, 207, 207);
+}
+@media screen and (min-width: 376px) {
+  button {
+    padding: 3.59vw 4.66vw 3.1vw;
+    font-size: 1.5vw;
+  }
+}
+@media screen and (min-width: 993px) {
+  button {
+    padding: 2.5vw 3.5vw 2vw;
+    font-size: 1.2vw;
+  }
+}
+
 .functioning {
   margin: 0 20px 48px;
 }
