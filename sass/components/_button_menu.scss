@@ -1,0 +1,19 @@
+button {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    padding: 18px 50px;
+    color: white;
+    border: none;
+    border-radius: 7vw;
+    background: linear-gradient(#e571da, #a05adc);
+    box-shadow: 0px 5px 5px rgb(207, 207, 207); 
+    @include tablette-only {
+        font-size: 16px;
+        padding: 22px 60px;
+    }
+    @include laptop-only {
+        font-size: 18px;
+        padding: 26px 70px;
+    }
+}

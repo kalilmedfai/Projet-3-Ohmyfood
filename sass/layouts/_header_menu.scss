@@ -1,15 +1,13 @@
 header {
-
     display: flex;
     align-items: center;
     padding: 22px 0 12px 0;
+}
 
-    i {
-        position: absolute;
-        margin-left: 23px;
-        font-size: 20px;
-    }
-    
+.return {
+    position: absolute;
+    margin-left: 23px;
+    font-size: 20px;
 }
 
 .logo {
