@@ -178,10 +178,10 @@ button {
   font-size: 20px;
   color: #7e7e7e;
 }
-.cards:nth-child(4) .card {
+.cards:nth-child(3) .card {
   background-color: #f5edff;
 }
-.cards:nth-child(4) i {
+.cards:nth-child(3) i {
   color: #9356DC;
 }
 
