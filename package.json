@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:./public/css/style.css",
-    "sass2": "sass --watch ./sass/A_la_francaise.scss:./public/css/A_la_francaise.css"
+    "sass2": "sass --watch ./sass/menu_detail.scss:./public/css/menu_detail.css"
   },
   "author": "",
   "license": "ISC"
