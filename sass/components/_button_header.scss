@@ -9,12 +9,12 @@ button {
     font-size: 4vw;
     box-shadow: 0px 5px 5px rgb(207, 207, 207);
     @include tablette-only {
-        padding: 3.59vw 4.66vw 3.1vw;
-        font-size: 1.5vw;
+        padding: 17px 24px;
+        font-size: 14px;
     } 
 
     @include laptop-only {
-        padding: 2.5vw 3.5vw 2vw;
-        font-size: 1.2vw;
+        padding: 19px 26px;
+        font-size: 18;
     } 
 }

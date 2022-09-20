@@ -19,8 +19,11 @@
     label {
         margin-right: 2vw;
         font-size: 4.27vw;
+        @include tablette-only {
+            font-size: 20px;
+        }  
         @include laptop-only {
-            font-size: 2vw;
+            font-size: 26px;
         }  
     }
 
@@ -29,18 +32,27 @@
         width: 35vw;
         height: 5vw;
         font-size: 4.27vw;
+        @include tablette-only {
+            font-size: 20px;
+            width: 145px;
+            height: 20px;
+        }  
         @include laptop-only {
-            font-size: 2vw;
-            width: 15vw;
-            height: 3vw;
+            font-size: 26px;
+            width: 180px;
+            height: 30px;
         }  
         background: none;
         &::placeholder {
             color: black;
-            font-size: 4.27vw;
+            font-size: 4.27vw; 
+            @include tablette-only {
+                font-size: 20px;
+                width: 200px;
+            }
             @include laptop-only {
-                font-size: 2vw;
-                width: 15vw;
+                font-size: 26px;
+                width: 180px;
             }
         }
     }
@@ -52,8 +64,12 @@
     padding: 11.5vw 0 15.2vw;
     background: #f6f6f6;
 
-    @include laptop-only {
+    @include tablette-only {
         padding: 20px 0 30px;
+    } 
+
+    @include laptop-only {
+        padding: 40px 0 50px;
     } 
 
     h2 {
@@ -61,11 +77,11 @@
         margin: 0 16vw 20px;
         font-size: 6vw;
         @include tablette-only {
-            font-size: 5vw;
+            font-size: 22px;
         } 
 
         @include laptop-only {
-            font-size: 4vw;
+            font-size: 34px;
         } 
     }
 
@@ -75,11 +91,11 @@
         font-size: 4.27vw;
         margin: 0 20px 30px;
         @include tablette-only {
-            font-size: 3vw;
+            font-size: 16px;
         } 
 
         @include laptop-only {
-            font-size: 2vw;
+            font-size: 22px;
         } 
     }
 }

@@ -28,9 +28,14 @@
   margin-right: 2vw;
   font-size: 4.27vw;
 }
+@media screen and (min-width: 376px) {
+  .search label {
+    font-size: 20px;
+  }
+}
 @media screen and (min-width: 993px) {
   .search label {
-    font-size: 2vw;
+    font-size: 26px;
   }
 }
 .search input {
@@ -40,21 +45,34 @@
   font-size: 4.27vw;
   background: none;
 }
+@media screen and (min-width: 376px) {
+  .search input {
+    font-size: 20px;
+    width: 145px;
+    height: 20px;
+  }
+}
 @media screen and (min-width: 993px) {
   .search input {
-    font-size: 2vw;
-    width: 15vw;
-    height: 3vw;
+    font-size: 26px;
+    width: 180px;
+    height: 30px;
   }
 }
 .search input::placeholder {
   color: black;
   font-size: 4.27vw;
 }
+@media screen and (min-width: 376px) {
+  .search input::placeholder {
+    font-size: 20px;
+    width: 200px;
+  }
+}
 @media screen and (min-width: 993px) {
   .search input::placeholder {
-    font-size: 2vw;
-    width: 15vw;
+    font-size: 26px;
+    width: 180px;
   }
 }
 
@@ -62,9 +80,14 @@
   padding: 11.5vw 0 15.2vw;
   background: #f6f6f6;
 }
-@media screen and (min-width: 993px) {
+@media screen and (min-width: 376px) {
   .under-searchzone {
     padding: 20px 0 30px;
+  }
+}
+@media screen and (min-width: 993px) {
+  .under-searchzone {
+    padding: 40px 0 50px;
   }
 }
 .under-searchzone h2 {
@@ -74,12 +97,12 @@
 }
 @media screen and (min-width: 376px) {
   .under-searchzone h2 {
-    font-size: 5vw;
+    font-size: 22px;
   }
 }
 @media screen and (min-width: 993px) {
   .under-searchzone h2 {
-    font-size: 4vw;
+    font-size: 34px;
   }
 }
 .under-searchzone p {
@@ -90,12 +113,12 @@
 }
 @media screen and (min-width: 376px) {
   .under-searchzone p {
-    font-size: 3vw;
+    font-size: 16px;
   }
 }
 @media screen and (min-width: 993px) {
   .under-searchzone p {
-    font-size: 2vw;
+    font-size: 22px;
   }
 }
 
@@ -112,14 +135,14 @@ button {
 }
 @media screen and (min-width: 376px) {
   button {
-    padding: 3.59vw 4.66vw 3.1vw;
-    font-size: 1.5vw;
+    padding: 17px 24px;
+    font-size: 14px;
   }
 }
 @media screen and (min-width: 993px) {
   button {
-    padding: 2.5vw 3.5vw 2vw;
-    font-size: 1.2vw;
+    padding: 19px 26px;
+    font-size: 18;
   }
 }
 
