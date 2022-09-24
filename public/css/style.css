@@ -125,6 +125,11 @@
 button {
   display: block;
   margin: auto;
+  border: none;
+  color: none;
+}
+
+.btn_to_menu {
   padding: 4.79vw 5.86vw 4.3vw;
   color: white;
   border: none;
@@ -133,14 +138,18 @@ button {
   font-size: 4vw;
   box-shadow: 0px 5px 5px rgb(207, 207, 207);
 }
+.btn_to_menu:hover {
+  filter: brightness(1.1);
+  box-shadow: 0px 5px 5px rgb(100, 100, 100);
+}
 @media screen and (min-width: 376px) {
-  button {
+  .btn_to_menu {
     padding: 17px 24px;
     font-size: 14px;
   }
 }
 @media screen and (min-width: 993px) {
-  button {
+  .btn_to_menu {
     padding: 19px 26px;
     font-size: 18;
   }
@@ -208,11 +217,11 @@ button {
   color: #9356DC;
 }
 
-.menu {
+#menu {
   padding: 58px 20px 64px;
   background: #f6f6f6;
 }
-.menu h2 {
+#menu h2 {
   margin-bottom: 27px;
 }
 
