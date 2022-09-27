@@ -6,11 +6,134 @@
   text-decoration: none;
 }
 
+@keyframes load {
+  0% {
+    transform: rotate(0deg);
+    visibility: visible;
+  }
+  100% {
+    transform: rotate(720deg);
+    visibility: hidden;
+  }
+}
+@keyframes fond {
+  0% {
+    opacity: 0.7;
+    z-index: 1;
+    visibility: visible;
+  }
+  95% {
+    opacity: 0.55;
+    z-index: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    z-index: none;
+    visibility: hidden;
+  }
+}
+/* .loader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    animation: fond 0.3s linear 3s forwards;
+}
+
+.lettre {
+    color: $color_secondary;
+    font-size: 80px;
+    letter-spacing: 15px;
+    margin-bottom: 150px;
+    animation: flash 1s linear 3s;
+}
+
+.lettre {
+    &:nth-child(1) {
+        animation-delay: 0.1s;
+    }
+    &:nth-child(2) {
+        animation-delay: 0.2s;
+    }
+    &:nth-child(3) {
+        animation-delay: 0.3s;
+    }
+    &:nth-child(4) {
+        animation-delay: 0.4s;
+    }
+    &:nth-child(5) {
+        animation-delay: 0.5s;
+    }
+    &:nth-child(6) {
+        animation-delay: 0.6s;
+    }
+    &:nth-child(7) {
+        animation-delay: 0.7s;
+    }
+    &:nth-child(8) {
+        animation-delay: 0.8s;
+    }
+    &:nth-child(9) {
+        animation-delay: 0.9s;
+    }
+    &:nth-child(10) {
+        animation-delay: 0.10s;
+    }
+
+} */
+.background-loader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+  z-index: 1;
+  animation: fond 2s linear forwards;
+}
+
+.loader {
+  border-radius: 50%;
+  border-top: 3vw solid #FF79DA;
+  border-right: 3vw solid #FF79DA;
+  border-bottom: 3vw solid #FF79DA;
+  border-left: 3vw solid #9356DC;
+  animation: load 2s linear forwards;
+  width: 40vw;
+  height: 40vw;
+}
+@media screen and (min-width: 376px) {
+  .loader {
+    border-top: 1.5vw solid #FF79DA;
+    border-right: 1.5vw solid #FF79DA;
+    border-bottom: 1.5vw solid #FF79DA;
+    border-left: 1.5vw solid #9356DC;
+    width: 20vw;
+    height: 20vw;
+  }
+}
+@media screen and (min-width: 993px) {
+  .loader {
+    border-top: 1vw solid #FF79DA;
+    border-right: 1vw solid #FF79DA;
+    border-bottom: 1vw solid #FF79DA;
+    border-left: 1vw solid #9356DC;
+  }
+}
+
 .logo {
   display: flex;
   justify-content: center;
-  margin-top: 22px;
-  margin-bottom: 12px;
+  padding-top: 22px;
+  padding-bottom: 12px;
 }
 .logo img {
   max-width: 43.7vw;
