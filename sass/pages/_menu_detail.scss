@@ -37,6 +37,20 @@
     i {
         margin-right: 26px;
         font-size: 28px;
+        &:hover {
+            font-weight: 900;
+            background: -webkit-linear-gradient($color-primary, $color-secondary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: heart-color 0.45s linear;
+        }
+        &:checked {
+            font-weight: 900;
+            background: -webkit-linear-gradient($color-primary, $color-secondary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: heart-color 0.45s linear forwards;
+        }
     }
 }
 

@@ -33,6 +33,14 @@
     visibility: hidden;
   }
 }
+@keyframes heart-color {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .background-loader {
   position: fixed;
   width: 100%;
@@ -203,7 +211,7 @@ button {
   color: white;
   border: none;
   border-radius: 7vw;
-  background: linear-gradient(#e571da, #a05adc);
+  background: linear-gradient(#FF79DA, #9356DC);
   font-size: 4vw;
   box-shadow: 0px 5px 5px rgb(207, 207, 207);
 }
@@ -338,10 +346,18 @@ button {
 .card-description div p {
   font-weight: 200;
 }
-
-.fa-heart {
+.card-description i {
   color: black;
   font-size: 20px;
+  height: 20px;
+  width: 20px;
+}
+.card-description i:hover {
+  font-weight: 900;
+  background: -webkit-linear-gradient(#9356DC, #FF79DA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: heart-color 0.45s linear;
 }
 
 footer {
