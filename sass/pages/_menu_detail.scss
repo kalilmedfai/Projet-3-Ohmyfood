@@ -96,8 +96,9 @@
     }
     &:hover {
         cursor: pointer;
-        grid-template-columns: auto 5% 20%;
+        grid-template-columns: auto 5% 60px;
         overflow: hidden;
+
         
         .validation__box {
             display: flex;
@@ -111,6 +112,10 @@
                 transform: rotate(180deg);
                 animation: rotate 0.5s both;
             }
+        }
+
+        .cost {
+            animation: slide-left 0.5s linear forwards;
         }
     }
 

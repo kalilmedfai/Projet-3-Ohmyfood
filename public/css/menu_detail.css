@@ -199,7 +199,7 @@ header {
 }
 .detail-menu:hover {
   cursor: pointer;
-  grid-template-columns: auto 5% 20%;
+  grid-template-columns: auto 5% 60px;
   overflow: hidden;
 }
 .detail-menu:hover .validation__box {
@@ -214,6 +214,9 @@ header {
 .detail-menu:hover .validation__box i {
   transform: rotate(180deg);
   animation: rotate 0.5s both;
+}
+.detail-menu:hover .cost {
+  animation: slide-left 0.5s linear forwards;
 }
 .detail-menu h3 {
   margin-bottom: 7px;
