@@ -51,3 +51,21 @@
         opacity: 1;
      }
 }
+
+@keyframes slide-left {
+    0% {
+        transform: translateX(50px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+            transform: rotate(360deg);
+        }
+}
