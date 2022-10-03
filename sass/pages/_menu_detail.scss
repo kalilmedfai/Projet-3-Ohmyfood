@@ -73,41 +73,49 @@
 
 
 .validation__box {
-    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #99E2D0;
+    color: white;
+    transition: all 0.5s;
+    transform: translateX(50px);
+    font-size: 25px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    width: 0;
 }
 
 .title-menu {
     padding: 15px 0 12px 10px;
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
 
 .cost {
     padding: 15px 0 12px;
+    transition: all 0.5s;
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
 
 .detail-menu {
+    cursor: pointer;
     display: grid;
-    grid-template-columns: 85% 15%;
+    grid-template-columns: minmax(0px, 100%);
     background: white;
     margin-top: 14px;
     border-radius: 10px;
     animation: slide 1s ease-in-out;
+    overflow: hidden;
     @include laptop-only {
         min-width: 33%;
     }
     &:hover {
-        cursor: pointer;
-        grid-template-columns: auto 5% 60px;
-        overflow: hidden;
-
         
         .validation__box {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: #99E2D0;
-            color: white;
-	        animation: slide-left 0.5s linear forwards;
-            font-size: 25px;
+	        transform: translateX(0);
+            width: 60px;
             i { 
                 transform: rotate(180deg);
                 animation: rotate 0.5s both;
@@ -122,10 +130,16 @@
     h3 {
         margin-bottom: 7px;
         font-size: 18px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
     }
     p {
         font-size: 14px;
         font-weight: 300;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
     }
 }
 
