@@ -1,11 +1,11 @@
 @import 'base/_box_sizing.scss';
 @import 'base/_polices.scss';
 @import 'utils/_variables.scss';
-@import 'utils/keyframes';
+@import 'utils/keyframes.scss';
 @import 'utils/_mixins.scss';
-@import 'themes/loader';
+@import 'themes/loader.scss';
 @import 'layouts/_header.scss';
-@import 'components/button_header';
-@import 'pages/fonctioning';
-@import 'pages/menu';
-@import 'layouts/footer';
+@import 'components/button_header.scss';
+@import 'pages/fonctioning.scss';
+@import 'pages/menu.scss';
+@import 'layouts/footer.scss';

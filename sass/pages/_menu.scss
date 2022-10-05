@@ -1,3 +1,95 @@
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background: linear-gradient(#cfcfcf, #eaeaea);
+
+    label {
+        margin-right: 2vw;
+        font-size: 4.27vw;
+        @include tablette-only {
+            font-size: 20px;
+        }  
+        @include laptop-only {
+            font-size: 26px;
+        }  
+    }
+
+    input {
+        border: none;
+        width: 35vw;
+        height: 5vw;
+        font-size: 4.27vw;
+        @include tablette-only {
+            font-size: 20px;
+            width: 145px;
+            height: 20px;
+        }  
+        @include laptop-only {
+            font-size: 26px;
+            width: 180px;
+            height: 30px;
+        }  
+        background: none;
+        &::placeholder {
+            color: black;
+            font-size: 4.27vw; 
+            @include tablette-only {
+                font-size: 20px;
+                width: 200px;
+            }
+            @include laptop-only {
+                font-size: 26px;
+                width: 180px;
+            }
+        }
+    }
+
+}
+
+.under-searchzone {
+
+    padding: 11.5vw 0 15.2vw;
+    background: #f6f6f6;
+
+    @include tablette-only {
+        padding: 20px 0 30px;
+    } 
+
+    @include laptop-only {
+        padding: 40px 0 50px;
+    } 
+
+    h2 {
+        text-align: center;
+        margin: 0 16vw 20px;
+        font-size: 6vw;
+        @include tablette-only {
+            font-size: 22px;
+        } 
+
+        @include laptop-only {
+            font-size: 34px;
+        } 
+    }
+
+    p {
+        text-align: center;
+        font-weight: 200;
+        font-size: 4.27vw;
+        margin: 0 20px 30px;
+        @include tablette-only {
+            font-size: 16px;
+        } 
+
+        @include laptop-only {
+            font-size: 22px;
+        } 
+    }
+}
+
 #menu {
     padding: 58px 20px 64px;
     background: #f6f6f6;

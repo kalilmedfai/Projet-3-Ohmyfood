@@ -62,6 +62,7 @@
 header {
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 22px 0 12px 0;
   position: relative;
   background: white;
@@ -69,8 +70,9 @@ header {
 
 .return {
   position: absolute;
-  margin-left: 23px;
+  left: 23px;
   font-size: 20px;
+  color: black;
 }
 
 .logo {
@@ -79,7 +81,7 @@ header {
   margin-right: auto;
 }
 .logo img {
-  width: 164px;
+  max-width: 43.7vw;
 }
 @media screen and (min-width: 376px) {
   .logo img {
