@@ -36,6 +36,11 @@
         position: relative;
     }
 
+    &:hover {
+        cursor: pointer;
+        animation: cards_scale 0.45s linear forwards;
+    }
+
     .card {
         width: 100%;
         height: 74px;

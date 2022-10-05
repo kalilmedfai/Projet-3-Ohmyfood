@@ -33,6 +33,14 @@
     visibility: hidden;
   }
 }
+@keyframes cards_scale {
+  0% {
+    scale: 1;
+  }
+  100% {
+    scale: 1.1;
+  }
+}
 @keyframes heart-color {
   0% {
     opacity: 0;
@@ -112,8 +120,9 @@ header {
 
 .return {
   position: absolute;
-  margin-left: 23px;
+  left: 23px;
   font-size: 20px;
+  color: black;
 }
 
 .logo {
@@ -138,6 +147,7 @@ header {
 .btn_to_menu {
   display: block;
   margin: auto;
+  margin-top: 30px;
   padding: 4.79vw 5.86vw 4.3vw;
   color: white;
   border: none;
@@ -199,6 +209,10 @@ header {
   background-color: #9356DC;
   border-radius: 20px;
   position: relative;
+}
+.cards:hover {
+  cursor: pointer;
+  animation: cards_scale 0.45s linear forwards;
 }
 .cards .card {
   width: 100%;
@@ -319,7 +333,7 @@ header {
   text-align: center;
   font-weight: 200;
   font-size: 4.27vw;
-  margin: 0 20px 30px;
+  margin: 0 20px 0;
 }
 @media screen and (min-width: 376px) {
   .under-searchzone p {

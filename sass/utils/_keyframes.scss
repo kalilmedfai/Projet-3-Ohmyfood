@@ -30,6 +30,16 @@
     }
 }
 
+@keyframes cards_scale {
+    0% {
+        scale: 1;
+    }
+
+    100% {
+        scale: 1.10;
+    }
+}
+
 @keyframes heart-color {
     0% {
         opacity: 0;
