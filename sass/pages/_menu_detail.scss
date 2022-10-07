@@ -2,10 +2,7 @@
     img{
         width: 100%;
         @include tablette-only {
-            object-position: 0 -22vw;
-        }
-        @include laptop-only {
-            object-position: 0 -28vw;
+            object-position: 0 -27vw;
         }
     }
 }
@@ -13,13 +10,14 @@
 .image-menu-special {
     img{
         width: 100%;
-        object-position: 0 -10vw;
+        max-height: 1500px;
+        margin-bottom: 3vw;
+        object-fit: cover;
         @include tablette-only {
-            object-position: 0 -31vw;
+            object-position: 0 -30vw;
         }
         @include laptop-only {
-            margin-bottom: 3vw;
-            object-position: 0 -35vw;
+            object-position: 0 -32vw;
         }
     }
 }
@@ -29,12 +27,12 @@
     border-radius: 20px 20px 0 0;
     background: #f6f6f6;
     padding: 34px 12px 83px;
-    margin-top: -54px;
+    margin-top: -14.4vw;
     @include tablette-only {
         margin-top: -35vw;
     }
     @include laptop-only {
-        margin-top: -45vw;
+        margin-top: -40vw;
     }
 }
 
