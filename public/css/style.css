@@ -233,10 +233,10 @@ header {
   font-size: 20px;
   color: #7e7e7e;
 }
-.cards:nth-child(3) .card {
+.cards:hover .card {
   background-color: #f5edff;
 }
-.cards:nth-child(3) i {
+.cards:hover i {
   color: #9356DC;
 }
 
@@ -368,6 +368,7 @@ header {
   background: #99e2d0;
   color: #008766;
   padding: 10px 14px;
+  border-radius: 3px;
 }
 
 .card-menu {
@@ -441,6 +442,16 @@ footer ul {
 }
 .footer-list a:active {
   color: white;
+}
+
+.fa-utensils {
+  margin-right: 12px;
+  font-size: 12px;
+}
+
+.fa-handshake-angle {
+  margin-right: 10px;
+  font-size: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
